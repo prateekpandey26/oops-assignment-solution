@@ -1,0 +1,80 @@
+﻿Oops assignment solutions 
+
+
+Question 1= how to create an object in java.
+
+
+Answer 1= creating an object in java involves following simple steps .
+
+
+(a). Define a class 
+for making an object first you need to create a class 
+
+
+     public class MyClass {
+    // Class members (fields, methods, etc.) go here
+}
+
+
+
+
+(b) create an object
+    
+    Once  you have a class you can create an object of that class using the “new” keyword ,followed by the class name and parentheses .ie
+MyClass myObject = new MyClass();
+Question 2= what is the use of new keyword in java .
+
+
+answers = in java new keyword is use for object creation ,followed by the class name and parentheses .ie
+MyClass myObject = new MyClass();
+
+
+Question 3= what are the different types are variable in java 
+
+
+answer= there are basically two types are variable in java 
+  Local variables 
+* local variables are declared within method , constructor ,or block of codes and have limited scope.
+* They are only accessible within the the block of code where they are declared 
+* Local variable must be initialized before use
+
+
+Instance variable = 
+* Instance variable are declared in a class but outside any method ,constructor,or block
+* They are associated with instances or objects of the class.
+
+
+
+
+Question 4= what are the difference between local variable and instance variable
+
+
+answer=
+Local variables 
+* local variables are declared within method , constructor ,or block of codes and have limited scope.
+* They are only accessible within the the block of code where they are declared 
+* Local variable must be initialized before use
+
+
+Instance variable = 
+* Instance variable are declared in a class but outside any method ,constructor,or block
+* They are associated with instances or objects of the class.
+
+
+Question 5= in which area memory is located for instance variable and local variable
+
+
+* Memory of instance variable is allocated in heap area.
+* Memory of local variables is allocated on stack area.
+
+
+Question 6=what is method overloading.
+
+
+Method overloading in java refers to the ability of defining  multiple methods in the  same class with the same name but different parameter lists. This allows you to use the same method name or different behaviors based on the type of the the numbers  of parameters.
+
+
+The key rules for  method overloading are 
+* Same method name 
+* Different parameter list
+* Return type
